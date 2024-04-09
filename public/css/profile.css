@@ -1,0 +1,35 @@
+:root{
+    --font-family: "Open Sans", sans-serif;
+    --primary: #6c5ce7 ;
+
+}
+
+
+.content {
+    align-items: flex-start;
+    justify-content: flex-start;
+    color:var(--primary);
+  }
+  
+  .info-container ul li {
+    display: flex;
+    
+  }
+  
+  .info-container ul li strong {
+    margin-right: 5px;
+    color: pink;
+  }
+  
+  .articles-list {
+    width: 100%;
+  }
+  
+  .articles-list ul li {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    border: var(--border);
+    margin-bottom: 5px;
+  }

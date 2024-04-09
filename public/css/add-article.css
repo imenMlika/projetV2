@@ -1,0 +1,45 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+}
+
+.form-container h1{
+    margin-bottom: 2rem;
+    
+   
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+
+
+}
+
+.form-control label {
+    margin-bottom: 1rem;
+
+}
+
+.form-control input{
+    border: var(--border);
+    border-radius: 10px;
+    padding: 1.5rem 2rem ;
+
+}
+
+.form-control select {
+    border:var(--border);
+    padding: 1.5rem 2rem ;
+    border-radius: 10px;
+}
+
+.form-action {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+
+
+}

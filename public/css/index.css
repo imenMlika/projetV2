@@ -1,0 +1,40 @@
+.acticles-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+
+
+.article {
+    flex: 30%;
+    margin: 1rem;
+    min-height: 40rem;
+    cursor: pointer;
+
+}
+
+.article:hover .img-container{
+    border: 1px solid blueviolet; 
+    transform: scale(0.8);
+
+}
+.category-container h2{
+    font-size: 3rem;
+    padding: 1rem 0.5rem;
+
+}
+
+.article h3 {
+    font-size: 1.6rem;
+    padding: 1rem 0.5rem;
+
+}
+
+.img-container {
+    height: 30rem;
+    background-size: cover;
+    transition: transform 0.4s
+}
